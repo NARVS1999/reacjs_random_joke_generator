@@ -1,0 +1,59 @@
+/* App.css */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffe0b2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+
+.App {
+  text-align: center;
+  background-color: #ff9800;
+  color: antiquewhite; 
+  padding: 20px;
+  border-radius: 8px;
+  border: 5px solid #e65100;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.joke-container {
+  margin-bottom: 20px;
+}
+
+.joke-category {
+  font-style: italic;
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.joke-setup {
+  margin-bottom: 10px;
+}
+
+.joke-punchline {
+  font-size: 1.2em;
+  color: #333;
+}
+
+button {
+  background-color: #e65100;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #ff7722;
+}
